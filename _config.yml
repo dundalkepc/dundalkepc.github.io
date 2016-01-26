@@ -19,3 +19,25 @@ github_username:  the-reverend
 
 # Build settings
 markdown: kramdown
+
+# prose.io config
+prose:
+  rooturl: '_posts'
+  siteurl: 'http://dundalkepc.github.io/'
+  relativeLinks: 'http://dundalkepc.github.io/links.jsonp'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "category"
+        field:
+          element: "hidden"
+          value: "update"
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "post"
+      - name: "title"
+        field:
+          element: "text"
+          label: "Title"
+          value: ""
