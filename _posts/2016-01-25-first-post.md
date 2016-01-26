@@ -1,5 +1,8 @@
 ---
 published: true
+layout: post
+date: "2016-01-25 19:53:52 -0500"
+categories: jekyll update
 ---
 
 
